@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:theme="@style/AppTheme"
+    tools:context="com.example.nitishprasad.signin.MainActivity">
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.9"
+    android:src="@drawable/img3"
+    android:scaleType="centerCrop"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BPIT"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:id="@+id/t1"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif-monospace"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attendance SHEET"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:id="@+id/t2"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:id="@+id/userNameField"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_field"
+            android:gravity="end"
+            android:hint="Gmail id"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/passwordHolder"
+        android:layout_below="@+id/userNameField"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="right"
+        android:id="@+id/password"
+        android:layout_margin="5dp"
+        android:hint="Enter your password"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:selectAllOnFocus="true"
+        android:inputType="textPassword"
+       android:background="@drawable/custom_field"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/passwordHolder"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/autoSign"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="Keep Me Signed In"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="40dp"
+        android:textSize="30sp"
+        android:onClick="click"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
