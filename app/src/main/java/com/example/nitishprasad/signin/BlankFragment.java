@@ -72,10 +72,4 @@ import android.widget.TextView;
 
 }
 
-class Teacher{
 
-    String id;
-    String name;
-    String
-
-}

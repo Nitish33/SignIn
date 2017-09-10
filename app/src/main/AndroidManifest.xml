@@ -19,6 +19,14 @@
         <activity
             android:name=".topPage"
             android:label="@string/title_activity_top_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addTeacher"
+            android:label="@string/title_activity_add_teacher"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addStudent"
+            android:label="@string/title_activity_add_student"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
