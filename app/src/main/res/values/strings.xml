@@ -2,7 +2,6 @@
     <string name="app_name">SignIn</string>
     <string name="title_activity_top_page">topPage</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_add_teacher">addTeacher</string>
     <string name="title_activity_add_student">addStudent</string>
