@@ -6,8 +6,7 @@
   
   <H3>Setting Up Android Studio</h3>
      1)  Download and Install JDK 8 <br>
-            <a href = "https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html"> Oracle JDK</a>
-            
+           
       2) Go the the bin Folder of the JDK and copy path.
       
       3) Open System Variable and add the above path in 'path' system variable.
@@ -19,7 +18,7 @@
         3.5) Select path from System Variable and click on edit
         3.6) Now Append bin path at the back of the string with ; or click on new path and paste it
       
-      4) Download and install Adnroid Studio<br>
+      4) Download and install Adnroid Studio <br>
           <a href = 'https://developer.android.com/studio/'>Android Studio</a>
           
       5) Now Download Android SDK and tools 
@@ -30,7 +29,7 @@
         5.5 ) Now hit ok and will download tools and dependency.
         
       
-     <H3> Running Application</h3>
+     <h3> Running Application</h3>
         1) Unzip Enclosed Project
         2) Open Android Studio and select select File - > Open and open the project
         3) While Opening , android studio ask you to change path , click Ok
