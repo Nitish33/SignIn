@@ -2,11 +2,11 @@
 
 <body>
 
-  <h1> This is a simple demostration of the Kuizz! Application</h1>
+  <h1> Kuizz Application </h1>
   
-  <H3>About The Application</h3>
-      Kuizz! is a simple quiz application,in which you can create,play and download quiz. It also stores your play history.
-  <img src = "" alt = "screenshot1"> <img src = "" alt = "screenshot2">  
+  <H3>Setting Up Android Studio</h3>
+     1)  Download and Install JDK 8 
+            <a href = "https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html"> Oracle JDK</a>
 
 
 <h2> Feature List </h2>
