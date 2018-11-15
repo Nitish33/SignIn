@@ -4,7 +4,7 @@
 
   <h1> Kuizz Application </h1>
   
-  <H3>Setting Up Android Studio</h3>
+  <h3>Setting Up Android Studio</h3>
      1)  Download and Install JDK 8 
            <a href = "https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html"> Oracle JDK  </a>
         
@@ -12,7 +12,6 @@
       
       3) Open System Variable and add the above path in 'path' system variable.
         3.1) Right Click On 'My Computer'
-          
         3.2) Select Properties
         3.3) From the right Option Select 'Advance System Setting'
         3.4) Click on Environment Variable
