@@ -40,6 +40,31 @@
             <img src = "img/8.PNG" alt = "image 1"/>
         6) Connect your mobile with the computer via USB Cable<br>
         7) Run the program.<br>
+        <br><br><br>
+        <h1> How To Play</h1><br>
+        <h3> Create your Own Quiz</h3><br>
+        1) Click on create Quiz<br>
+        2) Enter title and select image of your choice<br>
+        3) Now you can Enter your question. <br>
+        4) Enter Question, Select Image (if any) and options, minimum two options and maximum 4 options.<br>
+        5) Select one options and then click on ADD<br>
+        6) After adding all the options click terminate.<br>
+        7) Your Quiz is ready.<br>
+       <br>
+      <h3> Playing Quiz</h3><br>
+      1) Click on Play<br>
+      2) Choose your Quiz<br>
+      3) Question screen will appear.<br>
+      4) For each Question , you will be given 15 seconds<br>
+      5) For each Correct Answer, you will be given 10 points<br>
+      6) If you don't know answer of any question, click on "Show Answer" (little bulb icon) on the top.
+          You will not be given any point for that question.<br>
+      7) When you answer all the question or time is over , you will be show your final score.<br>
+      8) You can replay the same quiz by selecting (replay) or play another quiz.<br>
+     <br>
+     <h3> History</h3><br>
+      1) Your result of saved in the history.<br>
+        
       
 <body>
 
